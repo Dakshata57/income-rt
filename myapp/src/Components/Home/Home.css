@@ -1,0 +1,91 @@
+.parent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.parent h1 {
+  color: aqua;
+}
+
+.inputDiv input {
+  width: 200px;
+  height: 20px;
+  padding: 3px;
+  margin-right: 20px;
+}
+.parent button {
+  margin-top: 20px;
+  width: 200px;
+  height: 40px;
+  background-color: aquamarine;
+  border: 0;
+  font-size: 20px;
+  border-radius: 20px;
+}
+.parent select {
+  width: 200px;
+  height: 20px;
+}
+.messageStrip {
+  /* background-color: brown; */
+  color: white;
+  font-size: large;
+}
+.red {
+  background-color: red;
+}
+.green {
+  background-color: greenyellow;
+}
+.messageStrip h2 {
+  margin-left: 20px;
+}
+
+.tableParent {
+  display: flex;
+}
+
+.IncomeTable {
+  width: 50%;
+}
+.ExpenseTable {
+  width: 50%;
+}
+
+.IncomeTable h2 {
+  background-color: greenyellow;
+  text-align: center;
+  margin: 2px;
+}
+.IncomeTable table {
+  width: 100%;
+  text-align: center;
+  /* background-color: greenyellow; */
+  border-collapse: separate;
+  border-spacing: 0 12px;
+  /* border-color: white; */
+  font-size: 20px;
+  border: 0;
+}
+.IncomeTable table tr {
+  background-color: greenyellow;
+}
+.ExpenseTable h2 {
+  background-color: red;
+  text-align: center;
+  margin: 2px;
+}
+.ExpenseTable table {
+  width: 100%;
+  text-align: center;
+  /* background-color: red; */
+  border-collapse: separate;
+  border-spacing: 0 12px;
+  /* border-color: white; */
+  border: 0;
+  font-size: 20px;
+}
+.ExpenseTable table tr {
+  background-color: red;
+}
